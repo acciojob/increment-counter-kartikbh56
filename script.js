@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   button.addEventListener("click", () => {
     const currentValue = parseInt(counterElement.textContent);
-    alert("Current value before increment: " + currentValue);
+    alert(currentValue);
     counterElement.textContent = currentValue + 1;
   });
 });
